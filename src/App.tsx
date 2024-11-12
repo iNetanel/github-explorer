@@ -11,7 +11,6 @@
 import React, { useState } from 'react';
 import logo from './jam7_logo.png';
 import Search from './components/Search';
-import BackgroundMusic from './components/BackgroundMusic';
 import RepositoryList from './components/RepositoryList';
 import { Repository } from './types';
 import './App.css';
@@ -66,9 +65,6 @@ function App(): JSX.Element {
 
         {/* Repository display component */}
         <RepositoryList repositories={repositories} />
-        
-        {/* Enhanced user experience feature */}
-        <BackgroundMusic />
       </header>
 
       {/* Application footer with dynamic year update */}
