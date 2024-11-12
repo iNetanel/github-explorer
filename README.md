@@ -38,11 +38,11 @@ GitHub Repository Explorer enables users to seamlessly search and analyze GitHub
 ```bash
 git clone https://github.com/yourusername/github-explorer.git
 ```
-2. Clone the repository:
+2. Install NPM:
 ```bash
 npm install
 ```
-3. Clone the repository:
+3. Start NPM will raise the app at localhost:3000 by default:
 ```bash
 npm start
 ```
