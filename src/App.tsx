@@ -66,37 +66,11 @@ function App(): JSX.Element {
         {/* Repository display component */}
         <RepositoryList repositories={repositories} />
       </header>
-
       {/* Application footer with dynamic year update */}
       <footer className="Jam7-footer">
-        <div className="footer-content">
-          <div className="footer-section">
-            <h3>About</h3>
-            <p>Created by Netanel Eliav for Jam7</p>
-          </div>
-          <div className="footer-section">
-            <h3>Connect</h3>
-            <div className="social-links">
-              <a href="https://inetanel.com/" 
-                 target="_blank" 
-                 rel="noopener noreferrer">
-                <i className="fab fa-github"></i> GitHub
-              </a>
-              <a href="https://linkedin.com/in/inetanel" 
-                 target="_blank" 
-                 rel="noopener noreferrer">
-                <i className="fab fa-linkedin"></i> LinkedIn
-              </a>
-            </div>
-          </div>
-          <div className="footer-section">
-            <h3>Technologies</h3>
-            <p>React • TypeScript • GitHub API</p>
-          </div>
-        </div>
-        <div className="footer-bottom">
-          <p>&copy; {new Date().getFullYear()} - Built with ♥ by Netanel Eliav</p>
-        </div>
+      <div className="footer-bottom">
+        <p>&copy; {new Date().getFullYear()} - Built with ♥ by <a href="https://inetanel.com" target="_blank">Netanel Eliav</a></p>
+      </div>
       </footer>
     </div>
   );

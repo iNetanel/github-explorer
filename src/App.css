@@ -24,7 +24,7 @@ body {
 /* Main container */
 .Jam7 {
   text-align: center;
-  padding-bottom: 150px;  /* Add padding to prevent content from being hidden behind footer */
+  padding-bottom: 50px;  /* Add padding to prevent content from being hidden behind footer */
 }
 
 /* Header section */
@@ -534,10 +534,9 @@ select {
   right: 0;
   background-color: #282c34;
   color: white;
-  padding: 1rem;
+  padding-bottom: 1.25rem;
   text-align: center;
   z-index: 0;
-  border-top: 1px solid #404040;
   display: grid;
 }
 
@@ -557,39 +556,24 @@ select {
   text-align: center;
 }
 
-.footer-section h3 {
-  color: #f739ec;
-  margin-bottom: 1rem;
-  font-size: 1.2rem;
-}
-
 .footer-section p {
   margin: 0.5rem 0;
   font-size: 0.9rem;
   color: #a8a8a8;
 }
 
-.social-links {
-  display: flex;
-  gap: 1rem;
-  margin-top: 0.5rem;
-}
-
-.social-links a {
-  color: #a8a8a8;
-  text-decoration: none;
-  transition: color 0.3s ease;
-}
-
-.social-links a:hover {
-  color: #f739ec;
-}
-
 .footer-bottom {
   text-align: center;
-  padding-top: 2rem;
-  margin-top: 2rem;
+  padding-top: 1rem;
   border-top: 1px solid #404040;
+}
+.footer-bottom a {
+  color: #d6eaf8;
+  text-decoration: none;
+}
+
+.footer-bottom a:hover {
+  text-decoration: underline;
 }
 
 .footer-bottom p {
