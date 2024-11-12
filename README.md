@@ -1,3 +1,9 @@
+<p align="center">
+  <a href="https://jam7.com">
+  <img src="public/jam7_logo.png" width="200" />
+  </a>
+</p>
+
 # GitHub Repository Explorer
 
 An elegant React-based application for exploring GitHub repositories with advanced visualization and issue tracking capabilities.
